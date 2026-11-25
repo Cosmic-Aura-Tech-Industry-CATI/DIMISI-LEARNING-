@@ -1,5 +1,3 @@
-const videoCatalog = {};
-const videoRows = `
 0-1
 17EZh3lWqHZZYFrMwHt9ec8TrsJFsxD2T Course outline
 19itq6ioPyzxJ0mVJpbgTh7AV7-uErlqS What is ethical hacking?
@@ -101,67 +99,3 @@ const videoRows = `
 1P-6xrvmI74bn1KDXkBUYrN0q1oWj8O1g Managing cookies
 2-9
 1A8VrQU7y2-nzYjV51d6lVgvyK7CiNTOl Extending your learning
-`.trim().split('\n');
-let videoGroup;
-for (const row of videoRows) {
-  if (/^\d-\d+$/.test(row)) {
-    videoGroup = videoCatalog[row] = [];
-  } else {
-    const space = row.indexOf(' ');
-    videoGroup.push({id: row.slice(0, space), title: row.slice(space + 1)});
-  }
-}
-function mountPlayer(host, section) {
-  const videos = videoCatalog[section.t + '-' + (section.i + 1)];
-  if (!videos) return;
-  host.innerHTML = `<div class="studio">
-    <div class="screen-column"><div class="theater">
-      <div class="video-stage"><iframe allow="autoplay; fullscreen; encrypted-media" allowfullscreen></iframe></div>
-      <div class="transport"><span class="clip-count"></span><button class="expand" type="button">⛶　Full screen</button></div>
-    </div><p class="seek-help">Tap the video to show controls. Drag the timeline forward to skip ahead.</p>
-    <div class="clip-heading"><div><small>Now playing</small><h3 class="clip-title"></h3></div><a class="drive-link" target="_blank" rel="noopener" aria-label="Open current video in Google Drive">Drive ↗</a></div>
-    <div class="clip-nav"><button class="previous" type="button">Previous video</button><button class="advance" type="button">Next video</button></div></div>
-    <section class="queue"><h3>Section playlist</h3><div class="clips"></div></section></div>`;
-  const find = selector => host.querySelector(selector);
-  const theater = find('.theater'), frame = find('iframe'), expand = find('.expand');
-  const buttons = videos.map((video,i) => {
-    const b = document.createElement('button');
-    b.className = 'clip'; b.type = 'button';
-    const n = document.createElement('span'); n.textContent = String(i+1).padStart(2,'0');
-    b.append(n, document.createTextNode(video.title));
-    b.onclick = () => play(i);
-    find('.clips').append(b);
-    return b;
-  });
-  let active = 0;
-  function play(index) {
-    active = index;
-    const video = videos[index], base = 'https://drive.google.com/file/d/' + video.id;
-    frame.title = video.title;
-    frame.src = base + '/preview';
-    find('.drive-link').href = base + '/view';
-    find('.clip-title').textContent = video.title;
-    find('.clip-count').textContent = 'Video ' + (index+1) + ' of ' + videos.length;
-    buttons.forEach((button,i) => button.setAttribute('aria-current', String(i===index)));
-    find('.previous').disabled = index===0;
-    find('.advance').disabled = index===videos.length-1;
-  }
-  function updateExpand(){
-    const expanded = document.fullscreenElement === theater || theater.classList.contains('wide-screen');
-    expand.textContent = expanded ? 'Exit full screen' : '⛶　Full screen';
-    expand.setAttribute('aria-pressed',String(expanded));
-  }
-  theater.onfullscreenchange = updateExpand;
-  expand.onclick = async () => {
-    if (document.fullscreenElement === theater) await document.exitFullscreen();
-    else if (theater.classList.contains('wide-screen')) theater.classList.remove('wide-screen');
-    else {
-      try { await theater.requestFullscreen(); }
-      catch { theater.classList.add('wide-screen'); }
-    }
-    updateExpand();
-  };
-  find('.previous').onclick = () => play(active-1);
-  find('.advance').onclick = () => play(active+1);
-  play(0);
-}

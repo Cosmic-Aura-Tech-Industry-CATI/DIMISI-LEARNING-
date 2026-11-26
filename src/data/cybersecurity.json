@@ -1,0 +1,679 @@
+{
+  "tracks": [
+    {
+      "name": "Security foundations",
+      "sections": [
+        {
+          "title": "Course introduction",
+          "goal": "Describe the systems you want to protect and record your learning goals.",
+          "videos": [
+            {
+              "id": "17EZh3lWqHZZYFrMwHt9ec8TrsJFsxD2T",
+              "title": "Course outline"
+            },
+            {
+              "id": "19itq6ioPyzxJ0mVJpbgTh7AV7-uErlqS",
+              "title": "What is ethical hacking?"
+            }
+          ],
+          "files": []
+        },
+        {
+          "title": "Lab setup",
+          "goal": "Document the boundary between your learning environment and everyday devices.",
+          "videos": [
+            {
+              "id": "1gYtBjOKI-DSOq-CzaHpkcNht4z7UkZXA",
+              "title": "What is a virtual machine?"
+            },
+            {
+              "id": "1uIdOPp88YP9A-w07Yw4iJYdBskCMIiRS",
+              "title": "Why Linux?"
+            },
+            {
+              "id": "15KIweRkJU-lH3UqTT1ptb7kpFJVxaH1i",
+              "title": "Downloading VirtualBox and Kali Linux"
+            },
+            {
+              "id": "1GwreuNRFqtx1w5ER05pB4SJxiIkZPobF",
+              "title": "Creating our first virtual machine"
+            },
+            {
+              "id": "1KboWUzXOVJBvb8ihX22lxwvubNlFIpv8",
+              "title": "Installing Kali Linux"
+            },
+            {
+              "id": "1w72ZpnYuN2HuqXfvtH1CnGg6LWM01Deh",
+              "title": "New and old versions of Kali Linux"
+            },
+            {
+              "id": "1CF9x61gX6Dw-gsoEYQVyUExbKgt-5Ctz",
+              "title": "Full screen mode and network settings"
+            },
+            {
+              "id": "1Tz_dBrUTOlPjUSsVcXwpMQbKWkIHByVG",
+              "title": "Five stages of a penetration test"
+            }
+          ],
+          "files": []
+        },
+        {
+          "title": "Linux operating system",
+          "goal": "Practice navigating directories, managing files and explaining when elevated privileges are needed.",
+          "videos": [
+            {
+              "id": "1gEG5P1DkQYYCBRPZylBmtDtqwu6N7KKA",
+              "title": "Navigating the Linux system"
+            },
+            {
+              "id": "1fTaNoxYF-5chzEp_ejffey3gAOZraOgT",
+              "title": "Creating files and managing directories"
+            },
+            {
+              "id": "1DSfL3QUKt2CHE2NBJE0R7lhIytc5fwW7",
+              "title": "Network commands and sudo privileges"
+            }
+          ],
+          "files": []
+        },
+        {
+          "title": "Reconnaissance awareness",
+          "goal": "List the public information your own project intentionally exposes.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Scanning concepts",
+          "goal": "Explain how a service inventory helps a defender recognize unexpected changes.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Port inventory with Python",
+          "goal": "Read a saved service inventory and summarize its entries by port.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Vulnerability analysis",
+          "goal": "Prioritize a sample finding by exposure, likely impact and available fixes.",
+          "videos": [
+            {
+              "id": "1w71FM3e6c2uzpdnt5a1NID6IAYQehi_w",
+              "title": "Nessus installation"
+            }
+          ],
+          "files": []
+        },
+        {
+          "title": "Understanding access risks",
+          "goal": "Identify a control that limits the impact of a compromised user account.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "SMBGhost case study",
+          "goal": "Write a short historical case note on affected assets and patch management.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Malware categories",
+          "goal": "Compare the behaviors defenders associate with viruses and trojans.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Post-compromise indicators",
+          "goal": "Identify the logs you would preserve during a suspected incident.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Backdoor detection",
+          "goal": "Describe how you would review unexpected persistent access.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Web application security",
+          "goal": "Review one application route and document its authentication and authorization requirements.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Network trust",
+          "goal": "Explain how a client verifies the identity of a server.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Network traffic integrity",
+          "goal": "Explain how a defender might recognize an unexpected change to traffic in transit.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Wireless security",
+          "goal": "Review your own wireless network configuration and document your security choices.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Next steps",
+          "goal": "Identify a topic you want to revisit after the Python modules.",
+          "videos": [
+            {
+              "id": "1FmW4OjKo6sVlcedomdfs_guMHl1OyZ6J",
+              "title": "What is next?"
+            }
+          ],
+          "files": []
+        },
+        {
+          "title": "Python basics",
+          "goal": "Create a short script that counts entries in a sample log.",
+          "videos": [
+            {
+              "id": "1xlJPF2gtFLr8TFGeGno5az2nGyhsInl_",
+              "title": "What is a programming language?"
+            },
+            {
+              "id": "1iemcE9YlAgtrzDv_DwgUKe_Sj_xs6q_d",
+              "title": "Python interpreter"
+            },
+            {
+              "id": "1rvJ3hVnsnxbjLbZZVIy7rMeTge4C6F0p",
+              "title": "How to run Python code"
+            },
+            {
+              "id": "1xZK_y4EhKUgCFFUyq4xzfKcHMkqP9d4G",
+              "title": "Our first Python program"
+            },
+            {
+              "id": "1OT-F0p2ervlQUBVHW2hGZJlzemEPp6w6",
+              "title": "Latest version of Python"
+            },
+            {
+              "id": "1EjCgnQuazXSqre_Lb-7hXXV5nXgnlFCE",
+              "title": "Python 2 vs Python 3"
+            },
+            {
+              "id": "1lGB8eZSZseLJLjknLatwOw9X8pOX4PIM",
+              "title": "Exercise \u2014 how Python works"
+            }
+          ],
+          "files": []
+        },
+        {
+          "title": "Intermediate Python",
+          "goal": "Refactor your log summary into functions with clear inputs and outputs.",
+          "videos": [
+            {
+              "id": "1n-Z5JCY4vQS_VNhyoMLMclEkgEcAixKO",
+              "title": "Learning Python"
+            },
+            {
+              "id": "14VA6SHB2QPmi6jYyzlHjKv5n3dFvfjqj",
+              "title": "Python data types"
+            },
+            {
+              "id": "1KULIzbURRdmGK9pAXJ7Nw7Ykh9qrKs3p",
+              "title": "Numbers"
+            },
+            {
+              "id": "1VCSmsmMBFaYcDy3mJaMTBFRbJmXvyR7K",
+              "title": "Math functions"
+            },
+            {
+              "id": "15p0c9YWERAjku_tSYtgTGah4Y8Zu40ka",
+              "title": "Developer fundamentals I"
+            },
+            {
+              "id": "1TJb4TKinItIU65PMu3xik1Jr7OF9Ir5f",
+              "title": "Operator precedence"
+            },
+            {
+              "id": "1VUrCugkpWmbIgM12EJ7OHIbMmAzihAal",
+              "title": "Optional \u2014 bin() and complex"
+            },
+            {
+              "id": "1AMPtLGLm6R_AjbUUUUMyraq75I00bNFB",
+              "title": "Variables"
+            },
+            {
+              "id": "1y3ovdugCRQGCKZs1FoKD3FKnnJZnhPFV",
+              "title": "Expressions vs statements"
+            },
+            {
+              "id": "1Pcc1YCtuss8UxYA2nvbBJO8w3FYcm-IL",
+              "title": "Augmented assignment operator"
+            },
+            {
+              "id": "1Qrmi8mlCoeWbDMKUeGFbNgtU4tNey2nW",
+              "title": "Strings"
+            },
+            {
+              "id": "1vxVseSkTvWg7RMrolzqSzFGCtfc_tp7a",
+              "title": "String concatenation"
+            },
+            {
+              "id": "1ou3QIutqfJe19Omq3wqAdp6tbUuQEVid",
+              "title": "Type conversion"
+            },
+            {
+              "id": "1Qw2Ly3o1PbmUYLF8nsw7NA47ytYMebm3",
+              "title": "Escape sequences"
+            },
+            {
+              "id": "1LuA1l_OdxlzKHYS8FQOPVHp0xZnac244",
+              "title": "Formatted strings"
+            },
+            {
+              "id": "1XKXV2_7m-OHMtWqNkMro5vEzsiWkIqsg",
+              "title": "String indexes"
+            },
+            {
+              "id": "1SquZvnXLMtt30vLKtQb6FiP8cH5RGedn",
+              "title": "Immutability"
+            },
+            {
+              "id": "144qCXPe_EbGHtwmlWiX6NCJmkP26y-wt",
+              "title": "Built-in functions and methods"
+            },
+            {
+              "id": "1gVNHTiRpWAduowPXCmKUZQM1kOGJQ_9F",
+              "title": "Booleans"
+            }
+          ],
+          "files": []
+        },
+        {
+          "title": "Python error handling",
+          "goal": "Handle missing files and malformed records in your script.",
+          "videos": [
+            {
+              "id": "164jgK5igltG3vCpPj-orlFvi9odLGGSd",
+              "title": "Errors in Python"
+            },
+            {
+              "id": "1bwmPvuZ5H8KD_ZB5NTur5OVON20KKC03",
+              "title": "Error handling"
+            },
+            {
+              "id": "1z-WNckuRxvlqAtqCfEsHbL3rHGbJoRkS",
+              "title": "Error handling 2"
+            },
+            {
+              "id": "1JCq7f_Ehfwi_VwL7dAmwiS20FPNf0WFY",
+              "title": "Exercises \u2014 error handling"
+            },
+            {
+              "id": "1Y_s1KCZaKZtnft6yS7xgvuPiJe1r4giX",
+              "title": "Error handling 3"
+            }
+          ],
+          "files": []
+        },
+        {
+          "title": "Python file I/O",
+          "goal": "Read a local sample log and write a separate summary report.",
+          "videos": [
+            {
+              "id": "1l2IfU18j5nfavbayGGAX14vADO1dr_K4",
+              "title": "Working with files in Python"
+            },
+            {
+              "id": "13ZeYj14MNNb-h8F2SKTFyR78_NcFEBdj",
+              "title": "Read, write, append"
+            },
+            {
+              "id": "1JduxIx3ySFEsnDInYYZB3ncC8fkAyz_J",
+              "title": "File paths"
+            },
+            {
+              "id": "17hGjA7prqqSn4IJOc09TbYEVfqYzfYTL",
+              "title": "File I/O errors"
+            },
+            {
+              "id": "1etmd3to2U4RxwdYH7DVy057yPNiNoHB9",
+              "title": "Exercise \u2014 translator"
+            }
+          ],
+          "files": []
+        },
+        {
+          "title": "Bootcamp review",
+          "goal": "Review the bonus materials and record three concepts you can explain.",
+          "videos": [],
+          "files": []
+        }
+      ]
+    },
+    {
+      "name": "Python for security",
+      "sections": [
+        {
+          "title": "Python track introduction",
+          "goal": "Choose a defensive question you could answer using local data.",
+          "videos": [
+            {
+              "id": "19AHYYpMqr08JFFKv8EaISwpwPvRgVJut",
+              "title": "Introduction"
+            },
+            {
+              "id": "11VYXhy01LGMQ_KzGuumcUmAMSNUlSj1H",
+              "title": "What is programming?"
+            },
+            {
+              "id": "1Td_Rxblj4w1V36NctTR_pzKaXco35_3S",
+              "title": "The terminal and Linux commands"
+            },
+            {
+              "id": "10KJgdJSA9ZaHzFvV1oNg6WWsqu6jf0O_",
+              "title": "Python versions and our first program"
+            }
+          ],
+          "files": []
+        },
+        {
+          "title": "Python basics and MAC addresses",
+          "goal": "Explain where a MAC address appears in a local network inventory.",
+          "videos": [
+            {
+              "id": "13oocmTSMEOdw0mrF71luH7-CrXYV8Cgf",
+              "title": "Variables and strings"
+            },
+            {
+              "id": "1Fx_iGdQgAh58qqsV1UqtZz9umF_5ADi2",
+              "title": "Getting input from the user"
+            },
+            {
+              "id": "1hh1eD6HVD7BQSuTUHD7A1jAao7sCuIcd",
+              "title": "Handling user input"
+            },
+            {
+              "id": "1wkFa1hLZjFwCKVwBUBRuAcl066g2vxj8",
+              "title": "Handling command-line arguments"
+            },
+            {
+              "id": "1Cj6Saaz2vqLFIMboxoRVYdmzQahYBics",
+              "title": "Initializing variables from arguments"
+            },
+            {
+              "id": "1WDWUy3aqwQ8EAR_tD8QzUCNL1rwu11J2",
+              "title": "Functions"
+            },
+            {
+              "id": "1kARqHmTc9zAyMnUn_IgjREiBxL_RGZh0",
+              "title": "Returning values from functions"
+            },
+            {
+              "id": "1ZMdZj4ZoA-ch3kAhjEd7D_Pynb0f6Lt7",
+              "title": "Decision making"
+            }
+          ],
+          "files": []
+        },
+        {
+          "title": "Algorithm design",
+          "goal": "Describe the inputs, checks and outputs of an address-format validator.",
+          "videos": [
+            {
+              "id": "1dbIii_eUW_BwIOXdHK8fan4aUNXoagD6",
+              "title": "What is an algorithm?"
+            },
+            {
+              "id": "13ghhfV96JhvDC3Sah0jDCi_0UeaxzslC",
+              "title": "Reading system command output"
+            },
+            {
+              "id": "13Ya-mCCJFHwHTdWPZvoZZf0ZONT8yp9x",
+              "title": "Regular expressions"
+            },
+            {
+              "id": "1q5VHm9sTrB5lQ0WxXshi7fIlpblGo7f9",
+              "title": "Extracting a substring with regex"
+            },
+            {
+              "id": "1izoJgiGk2W-q1bqORrZm-sMgSgfjFyLs",
+              "title": "Refactoring and housekeeping"
+            }
+          ],
+          "files": []
+        },
+        {
+          "title": "Network inventory",
+          "goal": "Compare two saved device lists and identify new entries.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "ARP trust risks",
+          "goal": "Explain the relationship between IP addresses and hardware addresses.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Packet interpretation",
+          "goal": "Identify protocol fields in a sample packet provided by your course.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "DNS integrity",
+          "goal": "Describe why a surprising DNS answer deserves investigation.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "File integrity",
+          "goal": "Compare known-good file hashes against a saved inventory.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Web content integrity",
+          "goal": "Record how a change in a served page could be detected.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "HTTPS protections",
+          "goal": "Explain the role of certificate verification in protecting traffic.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "ARP spoof detection",
+          "goal": "Review a saved table for unexpected changes in address mappings.",
+          "videos": [
+            {
+              "id": "1NRccJYI6L6RoXzvoY6sjKcuKNZ1oKKlo",
+              "title": "Running Python on Windows"
+            },
+            {
+              "id": "1UZ-drPFqvR3fgZgwIZUZ487MMOCuJ5UH",
+              "title": "Capturing and analyzing ARP responses"
+            },
+            {
+              "id": "1xOW1-IwqDv4hReSMMgFhtnFq8VuJwQ4k",
+              "title": "Detecting ARP spoofing"
+            }
+          ],
+          "files": []
+        },
+        {
+          "title": "Malware awareness",
+          "goal": "Distinguish a suspicious behavior from a conclusion that malware is present.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Keylogger awareness",
+          "goal": "Identify the types of information exposed by unauthorized input monitoring.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Unauthorized remote access",
+          "goal": "Review a fictional incident and identify the evidence needed to confirm access.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Software provenance",
+          "goal": "Record how you would verify the origin of a downloaded package.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Web application review",
+          "goal": "Sketch a request flow and label the authorization checks.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Website structure",
+          "goal": "Map the public pages of your own application from its routing configuration.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Login protection",
+          "goal": "Document how your application handles repeated failed sign-ins.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Vulnerability triage",
+          "goal": "Review a sample finding and record its evidence, owner and remediation.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Python track review",
+          "goal": "Summarize one defensive Python project and its limitations.",
+          "videos": [],
+          "files": []
+        }
+      ]
+    },
+    {
+      "name": "Advanced security analysis",
+      "sections": [
+        {
+          "title": "Advanced track introduction",
+          "goal": "Define the scope of a security review and the questions it should answer.",
+          "videos": [
+            {
+              "id": "19xHTvZbLRBjwFW7urnyrOjlDNsRzcSNx",
+              "title": "What you should expect"
+            },
+            {
+              "id": "1bsuu1w4Tr35oR4jIT0NnoQA5Zjdtzx1w",
+              "title": "What you should know"
+            },
+            {
+              "id": "1XKwdZNUmgIZMDMoL2g83Z9lq4Q9oI3rn",
+              "title": "What you will learn"
+            },
+            {
+              "id": "1plSHTWeUYKw7kCPd_E_GJUVcfqKceoWc",
+              "title": "System requirements"
+            }
+          ],
+          "files": []
+        },
+        {
+          "title": "Getting organized",
+          "goal": "Create a findings register with evidence, impact, owner and status.",
+          "videos": [
+            {
+              "id": "1g3EM7el5j0N4N7l-PpDU24lxvvG9_b_P",
+              "title": "Ethical hacking"
+            },
+            {
+              "id": "1e7L6j-1lBQxB_OBlG8rnRHMNJ8M7gNIV",
+              "title": "Dradis Framework"
+            },
+            {
+              "id": "1Vgo2qfmAUYXoQglN1ms4tI8D15VEr8cK",
+              "title": "Using notes with Dradis"
+            },
+            {
+              "id": "1-m9ZCRN12-fG0u3NsWkHhDMq7zDy_RtK",
+              "title": "Importing data with Dradis"
+            },
+            {
+              "id": "1pMadU0VitL143fDZxqZpzRktitqxVF9U",
+              "title": "Installing Chrome plugins"
+            },
+            {
+              "id": "1K2xXLiH4ttFVlgdpEPjVCzXTA4QhLr2K",
+              "title": "Installing Firefox plugins"
+            },
+            {
+              "id": "1AmFBg-h4t0DEYiCYYUUjR3idFx-FgzDO",
+              "title": "Raspberry Pi"
+            }
+          ],
+          "files": []
+        },
+        {
+          "title": "Scanning results",
+          "goal": "Read an existing assessment report and identify which items require verification.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Data acquisition",
+          "goal": "Create an evidence inventory recording source, time and handling history.",
+          "videos": [
+            {
+              "id": "1P-6xrvmI74bn1KDXkBUYrN0q1oWj8O1g",
+              "title": "Managing cookies"
+            }
+          ],
+          "files": []
+        },
+        {
+          "title": "Metasploit in context",
+          "goal": "Explain how defenders interpret findings from an authorized assessment report.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Web testing",
+          "goal": "Review the access-control assumptions in a route from your own application.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Reverse engineering concepts",
+          "goal": "Distinguish static observations from behavior observed at runtime.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Fuzzing concepts",
+          "goal": "Describe how unexpected inputs can reveal validation problems and what a useful report contains.",
+          "videos": [],
+          "files": []
+        },
+        {
+          "title": "Extending your learning",
+          "goal": "Write a final review covering findings, fixes and how you would verify each fix.",
+          "videos": [
+            {
+              "id": "1A8VrQU7y2-nzYjV51d6lVgvyK7CiNTOl",
+              "title": "Extending your learning"
+            }
+          ],
+          "files": []
+        }
+      ]
+    }
+  ],
+  "shared": []
+}

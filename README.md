@@ -1,13 +1,8 @@
 # DIMISI Learning · Cipher Academy
+A React and strict TypeScript course dashboard using TanStack Router. Includes sequential lessons, milestones, a video player with resume, and lesson-file previews and downloads. Video and file requests are served by the TypeScript Worker.
 
-The learning panel includes an anime-inspired course dashboard, an in-page video player, lesson-file previews and downloads, sequential milestones, and browser-local playback progress.
+## Local development
+Use Node.js 24. Run `npm ci`, then `npm run dev` and open http://localhost:4173. Run `npm run build` for strict type checking and the production Worker bundle at `dist/server/index.js`.
 
-## Run locally
-
-Use Node.js 24. There are no package dependencies. Run `npm run dev` and open http://localhost:4173. To generate the deployable Worker at `dist/server/index.js`, run `npm run build`.
-
-## Course assets
-
-The default build uses the existing public video catalog in `catalog/videos.txt`. Each section begins with its track and section key (for example, `0-1`), followed by one video file ID and title per line. `catalog/files.json` maps section keys and the `shared` key to arrays of file ID and filename pairs.
-
-For the full course, point `COURSE_ASSETS_DIR` at a directory containing your own `videos.txt` and `files.json` before starting or building. The build embeds the chosen catalog into its output. The Worker serves videos and files through same-origin routes.
+## Course data
+The two course outlines are in `src/data`. The public catalog includes previously published media IDs. To use your private videos and files, set `COURSE_ASSETS_DIR` to a directory containing matching `cybersecurity.json` and `bounty.json` manifests before running dev or build. The chosen manifests are embedded in the generated bundle.

@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Programs and web security",
+    "sections": [
+      {
+        "title": "Bug bounty programs",
+        "videos": [],
+        "files": []
+      },
+      {
+        "title": "Public information concepts",
+        "videos": [],
+        "files": []
+      },
+      {
+        "title": "Web inspection tools",
+        "videos": [],
+        "files": []
+      },
+      {
+        "title": "SQL and database security",
+        "videos": [],
+        "files": []
+      },
+      {
+        "title": "Web application risks",
+        "videos": [],
+        "files": []
+      },
+      {
+        "title": "Cross-site scripting overview",
+        "videos": [],
+        "files": []
+      },
+      {
+        "title": "Sessions, privacy and disclosure",
+        "videos": [],
+        "files": []
+      },
+      {
+        "title": "Password-guessing risks",
+        "videos": [],
+        "files": []
+      },
+      {
+        "title": "Configuration risks",
+        "videos": [],
+        "files": []
+      },
+      {
+        "title": "Cross-origin access",
+        "videos": [],
+        "files": []
+      },
+      {
+        "title": "Server-side request forgery overview",
+        "videos": [],
+        "files": []
+      },
+      {
+        "title": "CAPTCHA concepts",
+        "videos": [],
+        "files": []
+      },
+      {
+        "title": "Reporting findings",
+        "videos": [],
+        "files": []
+      },
+      {
+        "title": "Course conclusion",
+        "videos": [],
+        "files": []
+      }
+    ]
+  },
+  {
+    "name": "Web fundamentals and reporting",
+    "sections": [
+      {
+        "title": "Course overview",
+        "videos": [],
+        "files": []
+      },
+      {
+        "title": "HTTP fundamentals",
+        "videos": [],
+        "files": []
+      },
+      {
+        "title": "Go language setup",
+        "videos": [],
+        "files": []
+      },
+      {
+        "title": "Reports and program policies",
+        "videos": [],
+        "files": []
+      }
+    ]
+  }
+]

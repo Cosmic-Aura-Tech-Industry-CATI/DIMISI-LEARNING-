@@ -89,3 +89,9 @@ body:not(.catalog-home){background:radial-gradient(#3c28151a .65px,transparent .
 }
 .completion-note{display:inline-flex;align-items:center;gap:.5rem;padding:6px 12px;background:#ffe0bb;color:#50230c;border:1px solid #9b451b;border-left:4px solid #d34715;border-radius:3px;margin-right:12px}
 @media(prefers-reduced-motion:no-preference){.completion-note{animation:completion-stamp .32s cubic-bezier(.18,.8,.25,1.12)}@keyframes completion-stamp{from{opacity:0;transform:rotate(-4deg) scale(.9)}to{opacity:1;transform:none}}}
+.catalog-list{display:grid;gap:2rem}
+.bounty-art,.anime-hero.bounty-hero{background-color:#312337;background-image:repeating-linear-gradient(115deg,transparent 0 35px,#fff1 36px 37px,transparent 38px 57px),radial-gradient(ellipse at 72% 36%,#9c4950 0%,#613446 45%,#2d2036 85%)}
+.bounty-art{min-height:300px;display:grid;place-items:center;overflow:hidden;border-right:2px solid var(--ink)}
+.report-art{position:relative;padding:28px 21px;width:118px;height:143px;background:#ffdfac;border:3px solid #1d1721;transform:rotate(-11deg);box-shadow:9px 8px #ef734e,12px 11px #1d1721}
+.report-art i{display:block;height:5px;background:#483343;margin:10px 0}.report-art i:nth-child(2){width:74%}.report-art i:nth-child(3){width:56%}.report-art b{position:absolute;right:-22px;bottom:-10px;border:3px solid #281a25;background:#ff7045;border-radius:50%;width:57px;height:57px;display:grid;place-items:center;color:#281a25;font-size:34px}
+@media(max-width:750px){.bounty-art{min-height:0;aspect-ratio:2/1;border:0;border-bottom:2px solid var(--ink)}.report-art{scale:.78}}

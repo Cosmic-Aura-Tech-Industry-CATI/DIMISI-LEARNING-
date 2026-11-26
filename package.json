@@ -1,1 +1,21 @@
-{"private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","dev":"node --use-env-proxy scripts/preview.mjs"}}
+{
+  "name": "cipher-academy",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "npm run typecheck && node scripts/build.mjs",
+    "dev": "node --use-env-proxy scripts/preview.mjs"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "^1.120.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "esbuild": "^0.25.0",
+    "typescript": "~5.9.2"
+  }
+}
